@@ -1,0 +1,157 @@
+.michael-timetable {
+  width: 356px;
+  margin: 23px auto 116px auto;
+
+  @media (min-width: $desktop-width) {
+    width: 1337px;
+    margin: 48px auto 228px auto;
+  }
+
+  .static-data {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+      display: block;
+    }
+  }
+}
+
+.topic-michael {
+  width: 356px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 23px auto;
+  
+  @media (min-width: $desktop-width) {
+    width: 100%;
+    height: 20px;
+    margin: 0 0 45px 0;
+  }
+
+  .topic-michael-page {
+    margin: 0;
+    font-size: 14px;
+
+    @media (min-width: $desktop-width) {
+      font-size: 16px;
+    }
+  }
+}
+
+.timetable-links-list {
+  @extend %flex-wrap;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    font-size: 16px;
+  }
+
+  .timetable-links-list-item {
+    display: flex;
+    margin: 0 11px 10px 0;
+
+    @media (min-width: $desktop-width) {
+      margin: 0 11px 0 0;
+    }
+
+    .timetable-link {
+      margin-right: 11px;
+      transition: 0.5s ease;
+      &:hover {
+        color: $bg-blue;
+      }
+      &:active {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.timetable-headlines-list {
+  width: 356px;
+  margin: 0 auto;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    margin: 0;
+  }
+
+  .timetable-headlines-list-item {
+    margin: 0 0 23px 0;
+
+    @media (min-width: $desktop-width) {
+      margin: 0 0 42px 0;
+    }
+
+    .main-headline {
+      margin: 0;
+    }
+
+    &:last-of-type .main-headline {
+      font-size: 20px;
+
+      @media (min-width: $desktop-width) {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.timetable {
+  width: 347px;
+  border-collapse: collapse;
+
+  @media (min-width: $desktop-width) {
+    width: 844px;
+  }
+
+  .right-graph {
+    height: 57px;
+    padding: 0 0 0 18px;
+    font-weight: normal;
+    text-align: left;
+    border: 1px solid $color-black;
+    background-color: $color-white;
+
+    @media (min-width: $desktop-width) {
+      padding: 0 0 0 52px;
+    }
+  }
+
+  .timetable-graph:first-of-type .right-graph {
+    height: 56px;
+    font-weight: 500;
+    background-color: $bg-grey-dd;
+  }
+
+  .grey-graph {
+    background-color: $bg-grey-dd;
+  }
+
+  .left-graph {
+    width: 80px;
+    text-align: center;
+    border: 1px solid $color-black;
+
+    @media (min-width: $desktop-width) {
+      width: auto;
+    }
+  }
+}
+
+#active-page {
+  background-color: $bg-blue;
+
+  .page-link:hover {
+    color: $color-black;
+
+    &::after {
+      background-color: $color-black;
+    }
+  }
+}

@@ -1,0 +1,764 @@
+@media (min-width: $desktop-width) {
+  .enter-michael-content {
+    padding: 53px 265px 116px 44px;
+  }
+}
+
+.enter-michael-information {
+  margin: 0 0 32px 0;
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 40px 0;
+  }
+
+  .main-headline {
+    width: 280px;
+    margin: 0 0 22px 21px;
+
+    @media (min-width: $desktop-width) {
+      width: 400px;
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .info-headline {
+    font-size: 18px;
+    margin-bottom: 5px;
+
+    @media (min-width: $desktop-width) {
+      display: none;
+    }
+  }
+
+  .general-information {
+    width: 375px;
+    margin: 0 0 8px 0;
+
+    @media (min-width: $desktop-width) {
+      width: auto;
+      margin: 0 0 20px 0;
+    }
+    
+    .general-information-textarea {
+      order: -1;
+    }
+    
+    .general-information-input {
+      display: none;
+    }
+  }
+}
+
+.general-information {
+  @extend %flex-wrap-space;
+  width: 350px;
+  height: 164px;
+
+  @media (min-width: $desktop-width) {
+    width: 854px;
+    height: 216px;
+  }
+
+  .general-information-textarea {
+    &::placeholder {
+      color: $color-black;
+
+      @media (min-width: $desktop-width) {
+        color: $bg-grey-59;
+      }
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 620px;
+    }
+  }
+}
+
+.information-kinds-list {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 30px;
+
+    margin: 0;
+    padding: 0;
+
+    .information-kinds-list-item {
+      width: 18px;
+      height: 18px;
+
+      &:nth-of-type(n + 2) img {
+        margin-top: 2px;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        transition: 0.5s ease;
+
+        &:hover {
+          opacity: 0.3;
+        }
+      }
+    }
+  }
+}
+
+.datas-list {
+  width: 375px;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    width: 854px;
+  }
+
+  .datas-list-item {
+    position: relative;
+    height: 76px;
+    margin: 0 0 8px 0;
+
+    @media (min-width: $desktop-width) {
+      flex-wrap: nowrap;
+      height: 43px;
+      margin-bottom: 10px;
+
+      font-size: 20px;
+      color: $bg-grey-59;
+      background-color: $bg-grey-eb;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .data-label {
+      @extend %flex-wrap;
+
+      @media (min-width: $desktop-width) {
+        display: block;
+        height: 43px;
+      }
+
+      &:first-of-type {
+        @extend %flex-space;
+        width: 712px;
+      }
+
+      .data-label-text {
+        margin: 0 0 5px 21px;
+        font-weight: 700;
+
+        @media (min-width: $desktop-width) {
+          margin: 10px 22px;
+          font-weight: normal;
+        }
+      }
+    }
+
+    .data-input {
+      width: 100%;
+      height: 50px;
+      padding: 14px 20px;
+
+      opacity: 1;
+      font-size: 18px;
+      color: $bg-grey-59;
+      border: none;
+      transition: 0.3s ease;
+      background-color: $bg-grey-eb;
+
+      @media (min-width: $desktop-width) {
+        width: 450px;
+        height: 43px;
+        text-align: right;
+        padding: 0;
+        font-size: 20px;
+      }
+
+      &:hover,
+      &:focus {
+        color: $color-black;
+      }
+    }
+  }
+
+  .data-button {
+    position: absolute;
+    top: 48px;
+    left: 340px;
+
+    @media (min-width: $desktop-width) {
+      top: 0;
+      left: 790px;
+    }
+  }
+}
+
+.data-button {
+  width: 11px;
+  height: 10px;
+  padding: 0;
+
+  border: none;
+  transition: 0.3s ease;
+  background-color: inherit;
+  background-repeat: no-repeat;
+  background-image: url("../img/delete.png");
+
+  @media (min-width: $desktop-width) {
+    position: static;
+    top: 0;
+    left: 0;
+    margin: 18px 0 0 25px;
+  }
+
+  &:first-of-type {
+    top: 45px;
+    left: 301px;
+    width: 14px;
+    height: 16px;
+    background-image: url("../img/pencil.png");
+
+    @media (min-width: $desktop-width) {
+      position: static;
+      top: 0;
+      left: 0;
+      margin: 15px 0 0 54px;
+    }
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.enter-michael-worships {
+  margin-bottom: 40px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 45px;
+  }
+
+  .main-headline {
+    width: 333px;
+    margin: 0 auto 13px auto;
+
+    @media (min-width: $desktop-width) {
+      width: auto;
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .worships-list {
+    @extend %flex-wrap;
+    margin: 0 auto 24px auto;
+    padding: 0;
+    width: 375px;
+
+    @media (min-width: $desktop-width) {
+      width: 850px;
+    }
+
+    .worships-list-item {
+      position: relative;
+      width: 375px;
+
+      @media (min-width: $desktop-width) {
+        width: 262px;
+        margin: 0 6px 11px 0;
+      }
+
+      .worships-label .main-headline {
+        margin: 0 0 5px 20px;
+        font-size: 18px;
+        font-weight: 700;
+
+        @media (min-width: $desktop-width) {
+          display: none;
+        }
+      }
+
+      .worships-input {
+        width: 375px;
+        height: 50px;
+        margin: 0 0 8px 0;
+        padding: 13px 21px;
+
+        border: none;
+        font-size: 18px;
+        color: $color-black;
+        background-color: $bg-grey-eb;
+
+        @media (min-width: $desktop-width) {
+          width: 262px;
+          height: 43px;
+          margin: 0;
+          padding: 10px 22px;
+
+          font-size: 20px;
+        }
+
+        &:placeholder {
+          opacity: 1;
+          color: $bg-grey-59;
+        }
+      }
+
+      @media (min-width: $desktop-width) {
+        &:nth-child(3n) {
+          width: 302px;
+          height: 43px;
+          margin: 0;
+
+          .worships-input {
+            width: 226px;
+            margin: 0;
+          }
+        }
+      }
+
+      .data-button {
+        position: absolute;
+        top: 44px;
+        left: 297px;
+        z-index: 2;
+        display: block;
+
+        @media (min-width: $desktop-width) {
+          display: none;
+          position: absolute;
+          top: 15px;
+          left: 790px;
+          margin: 0;
+        }
+
+        &:last-of-type {
+          top: 47px;
+          left: 340px;
+
+          @media (min-width: $desktop-width) {
+            top: 17px;
+            left: 840px;
+          }
+        }
+      }
+
+      &:nth-child(n + 4) {
+        position: absolute;
+        opacity: 0;
+
+        @media (min-width: $desktop-width) {
+          position: relative;
+          opacity: 1;
+        }
+      }
+
+      &:nth-child(3n + 1) .data-button {
+        display: block;
+      }
+
+      &:nth-of-type(7) .data-button {
+        top: 25px;
+
+        &:last-of-type {
+          top: 28px;
+        }
+      }
+
+      &:nth-child(n + 7) {
+        margin-bottom: 0;
+
+        .worships-input {
+          height: 67px;
+          padding: 10px 22px 34px 22px;
+        }
+      }
+
+      &:nth-child(8) .worships-input {
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        background-position: 225px 14px;
+        background-image: url("../img/calendar-registration.png");
+      }
+
+      &:nth-child(9) .worships-input {
+        background-size: 10px 6px;
+        background-repeat: no-repeat;
+        background-position: 195px 20px;
+        background-image: url("../img/arrow-registration.png");
+      }
+
+      &:last-of-type {
+        height: 67px;
+      }
+    }
+  }
+
+  .grey-button {
+    width: 351px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    &:first-of-type {
+      margin-bottom: 21px;
+      font-weight: 500;
+      text-align: center;
+      color: $color-black;
+      background-image: none;
+
+      @media (min-width: $desktop-width) {
+        display: none;
+      }
+    }
+
+    &:last-of-type {
+      color: black;
+      text-align: abs($number: 0);
+
+      @media (min-width: $desktop-width) {
+        width: 261px;
+        margin-left: 502px;
+        padding: 15px 62px;
+
+        border-radius: 0;
+        color: $bg-grey-59;
+        background-position: 185px 24px;
+        background-image: url("../img/plus-community.png");
+      }
+    }
+  }
+}
+
+.grey-button {
+  display: block;
+  width: 261px;
+  height: 55px;
+  padding: 15px 62px;
+
+  border: none;
+  font-size: 20px;
+  text-align: left;
+  color: $bg-grey-59;
+  transition: 0.3s ease;
+  background-color: $bg-grey-c4;
+
+  background-size: 11px 11px;
+  background-repeat: no-repeat;
+  background-position: 184px 23px;
+  background-image: url("../img/plus-worships.png");
+
+  &:hover {
+    background-color: $bg-grey-dd;
+  }
+  &:active {
+    background-color: $bg-grey-eb;
+  }
+}
+
+.enter-michael-content .news-noveltys {
+  width: 375px;
+  margin: 0 auto 44px auto;
+
+  @media (min-width: $desktop-width) {
+    width: 650px;
+    margin: 0 0 44px 0;
+  }
+
+  .main-headline {
+    margin: 0 0 13px 21px;
+
+    @media (min-width: $desktop-width) {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .noveltys-list {
+    height: auto;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+  }
+
+  .nov-list-item {
+    justify-content: space-between;
+    position: relative;
+    width: 375px;
+    height: 50px;
+    margin: 0 0 8px 0;
+    padding: 15px 21px;
+
+    background-color: $bg-grey-eb;
+
+    @media (min-width: $desktop-width) {
+      width: 645px;
+      height: 55px;
+      padding: 0;
+      margin: 0 0 11px 0;
+
+      font-size: 20px;
+      background-color: inherit;
+    }
+
+    .inputs {
+      @extend %flex-space;
+      width: 100%;
+
+      @media (min-width: $desktop-width) {
+        width: 568px;
+        height: 100%;
+        padding: 16px 17px 16px 31px;
+        background-color: $bg-grey-eb;
+      }
+
+      input {
+        width: 160px;
+        border: none;
+        font-size: 18px;
+        background-color: inherit;
+
+        @media (min-width: $desktop-width) {
+          width: 250px;
+          height: auto;
+          padding: 0;
+          font-size: 20px;
+        }
+      }
+
+      .novelty-date {
+        margin: 0;
+        text-align: right;
+        font-weight: 300;
+      }
+    }
+
+    .data-button {
+      display: none;
+
+      @media (min-width: $desktop-width) {
+        position: static;
+        display: block;
+        z-index: 2;
+        margin: 20px 0 0 0;
+
+        background-color: inherit;
+        background-size: 14px 15px;
+      }
+
+      &:last-of-type {
+        margin: 22px 0 0 0;
+        background-size: 10px 10px;
+      }
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+
+      .data-button {
+        @media (min-width: $desktop-width) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .grey-button {
+    width: 351px;
+    margin: 0 auto;
+    padding: 0;
+
+    text-align: center;
+    border-radius: 10px;
+    color: $color-black;
+    background-image: none;
+
+    @media (min-width: $desktop-width) {
+      width: 261px;
+      margin: 0;
+      border-radius: 0;
+      color: $bg-grey-59;
+    }
+  }
+}
+
+.enter-michael-content .michael-social {
+  width: 375px;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    width: 644px;
+    margin: 0 0 42px 0;
+  }
+
+  .main-headline {
+    width: 333px;
+    margin: 0 auto 18px auto;
+
+    @media (min-width: $desktop-width) {
+      width: auto;
+      margin: 0 0 21px 0;
+    }
+  }
+
+  .social-list {
+    display: block;
+    margin-bottom: 21px;
+
+    @media (min-width: $desktop-width) {
+      width: 645px;
+      margin-bottom: 27px;
+    }
+  }
+
+  .social-list-item {
+    width: 100%;
+    height: 55px;
+    margin: 0 0 11px 0;
+    padding: 0;
+
+    background-color: inherit;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  .social-text {
+    width: 375px;
+    height: 50px;
+    padding: 15px 21px;
+
+    border: none;
+    font-size: 20px;
+    background-color: $bg-grey-eb;
+
+    @media (min-width: $desktop-width) {
+      width: 568px;
+      height: 55px;
+      padding: 16px 31px;
+    }
+  }
+  .data-button {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+      display: block;
+      position: static;
+      z-index: 2;
+      background-color: inherit;
+    }
+  }
+}
+
+.buttons-list {
+  @extend %flex-wrap-space;
+  width: 351px;
+  margin: 0 auto 45px auto;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    width: 623px;
+    margin: 0;
+  }
+
+  .buttons-list-item {
+    margin: 0 0 21px 0;
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin: 0;
+    }
+  }
+
+  .grey-button {
+    width: 351px;
+    padding: 0;
+
+    text-align: center;
+    border-radius: 10px;
+    color: $color-black;
+    background-image: none;
+    background-color: $bg-grey-c4;
+
+    @media (min-width: $desktop-width) {
+      width: 282px;
+      border-radius: 0;
+      color: $bg-grey-59;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    .buttons-list-item:last-of-type .grey-button {
+      width: 322px;
+    }
+  }
+}
+
+.materials-buttons {
+  width: 351px;
+  margin: 0 auto 38px auto;
+
+  @media (min-width: $desktop-width) {
+    width: 564px;
+    margin: 0 0 44px 0;
+  }
+
+  .main-headline {
+    margin: 0 0 20px 0;
+  }
+
+  .materials-buttons-list {
+    @extend %flex-wrap-space;
+    margin: 0;
+    padding: 0;
+
+    .materials-buttons-list-item {
+      height: 55px;
+      margin: 0 0 21px 0;
+
+      @media (min-width: $desktop-width) {
+        margin: 0;
+      }
+
+      &:last-of-type {
+        margin: 0;
+      }
+
+      .grey-button {
+        width: 351px;
+        font-weight: 500;
+        border-radius: 10px;
+        color: $color-black;
+
+        @media (min-width: $desktop-width) {
+          width: 261px;
+          border-radius: 0;
+          color: $bg-grey-59;
+        }
+      }
+
+      &:first-of-type .grey-button {
+        text-align: center;
+        background-image: none;
+      }
+
+      &:last-of-type .grey-button {
+        padding: 16px 116px;
+        background-position: 222px 24px;
+
+        @media (min-width: $desktop-width) {
+          padding: 15px 62px;
+          background-position: 186px 24px;
+        }
+      }
+    }
+  }
+}

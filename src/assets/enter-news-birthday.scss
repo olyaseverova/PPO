@@ -1,0 +1,89 @@
+.birthday {
+  width: 375px;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    margin: 0;
+    padding: 21px 522px 239px 70px;
+  }
+
+  .grey-button {
+    width: 351px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    color: $color-black;
+    background-image: none;
+
+    @media (min-width: $desktop-width) {
+      width: 261px;
+      margin: 0;
+      padding: 15px 62px;
+
+      border-radius: 0;
+      color: $bg-grey-59;
+    }
+  }  
+}
+
+.name {
+  @media (min-width: $desktop-width) {
+    width: 571px;
+  }
+
+  .main-headline {
+    width: 333px;
+    margin: 0 auto 22px auto;
+
+    @media (min-width: $desktop-width) {
+      width: auto;
+      margin: 0 0 26px 0;
+    }
+  }
+
+  .date-headline {
+    margin: 0 auto 10px auto;
+    font-size: 18px;
+
+    @media (min-width: $desktop-width) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .names-list {
+    margin: 0 0 10px 0;
+    padding: 0;
+
+    @media (min-width: $desktop-width) {
+      margin: 0 0 30px 0;
+    }
+
+    &:last-of-type {
+      margin: 0 0 21px 0;
+
+      @media (min-width: $desktop-width) {
+        margin: 0 0 38px 0;
+      }
+    }
+  }
+
+  .names-list-item {
+    margin-bottom: 10px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+    .name-input {
+      width: 100%;
+      height: 54px;
+      font-size: 18px;
+      padding: 16px 21px;
+      color: $color-black;
+      border: none;
+      background-color: $bg-grey-eb;
+    }
+  }
+}

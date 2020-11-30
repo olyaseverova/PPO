@@ -1,0 +1,93 @@
+.michael-materials {
+  width: 356px;
+  margin: 23px auto 128px auto;
+
+  @media (min-width: $desktop-width) {
+    width: 1366px;
+    margin: 47px auto 312px auto;
+  }
+
+  .static-data {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+      display: block;
+      margin-top: 65px;
+    }
+  }
+}
+
+.materials-list {
+  width: 347px;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    width: 788px;
+  }
+
+  .materials-list-item {
+    @extend %flex-wrap-space;
+    margin: 0 0 10px 0;
+
+    @media (min-width: $desktop-width) {
+      flex-wrap: nowrap;
+      height: 54px;
+      margin: 0 0 12px 0;
+    }
+
+    .main-headline {
+      margin: 0 0 20px 0;
+      font-size: 18px;
+
+      @media (min-width: $desktop-width) {
+        margin: 10px 0 0 0;
+        font-size: 24px;
+      }
+    }
+
+    .grey-button {
+      float: right;
+      width: 100%;
+      height: 54px;
+      padding: 7px 21px;
+
+      font-size: 18px;
+      text-align: left;
+      border-radius: 10px;
+      color: $color-black;
+      background-image: none;
+      background-color: $bg-grey-eb;
+
+      @media (min-width: $desktop-width) {
+        width: 698px;
+        height: 100%;
+        padding: 13px 10px 13px 48px;
+        font-size: 24px;
+      }
+
+      &:hover {
+        background-color: $bg-grey;
+      }
+      &:active {
+        background-color: $bg-grey-c4;
+      }
+    }
+
+    &:first-of-type .grey-button {
+      padding: 17px 21px;
+      @media (min-width: $desktop-width) {
+        padding: 13px 10px 13px 48px;
+      }
+    }
+  }
+
+  .new-material {
+    margin-top: 23px;
+
+    @media (min-width: $desktop-width) {
+      margin-top: 37px;
+    }
+  }
+}
+
