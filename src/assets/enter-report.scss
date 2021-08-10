@@ -1,0 +1,509 @@
+.enter-report {
+  width: 375px;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    margin: 0;
+    padding: 39px 62px 63px 47px;
+  }
+
+  .main-headline {
+    width: 333px;
+    margin: 0 auto 22px auto;
+
+    @media (min-width: $desktop-width) {
+      width: auto;
+      margin: 0 0 31px 1px;
+    }
+  }
+
+  .buttons-list {
+    @media (min-width: $desktop-width) {
+      width: 600px;
+      margin: 0 0 41px 1px;
+
+      .buttons-list-item:first-of-type .grey-button {
+        width: 292px;
+      }
+      .buttons-list-item:last-of-type .grey-button {
+        width: 261px;
+      }
+    }
+
+    .buttons-list-item {
+      width: 351px;
+
+      @media (min-width: $desktop-width) {
+        width: auto;
+      }
+    }
+  }
+}
+
+
+.report-periods {
+  @media (min-width: $desktop-width) {
+    width: 772px;
+    margin: 0 0 41px 0;
+  }
+
+  .main-headline {
+    width: 333px;
+    margin: 0 auto 17px auto;
+
+    @media (min-width: $desktop-width) {
+      width: 100%;
+      margin: 0 0 19px 0;
+    }
+  }
+
+  .grey-button {
+    margin: 0 auto 43px auto;
+    padding: 0;
+    text-align: center;
+    background-image: none;
+
+    @media (min-width: $desktop-width) {
+      margin: 0 0 41px 0;
+    }
+  }
+}
+
+.periods-list {
+  margin: 0 0 22px 0;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 17px 0;
+  }
+
+  .periods-list-item {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 44px;
+    padding: 12px 22px 12px 14px;
+    background-color: $bg-grey-eb;
+
+    @media (min-width: $desktop-width) {
+      height: auto;
+      padding: 0;
+      margin-bottom: 5px;
+      background-color: inherit;
+    }
+
+    @media (min-width: $desktop-width) {
+      &:nth-child(n+2):nth-child(-n+4) .data-button {
+        display: none;
+      }
+    }
+
+    &:nth-of-type(-n+4) .periods-text {
+      color: $bg-grey-59;
+      font-weight: 700;
+
+      @media (min-width: $desktop-width) {
+        color: $color-black;
+        font-weight: normal;
+      }
+    }
+
+    &:nth-of-type(n+5) {
+      height: auto;
+      border-top: 1px solid $bg-grey-7e;
+
+      @media (min-width: $desktop-width) {
+        border: none;
+      }
+      .periods-input {
+        display: none;
+        @media (min-width: $desktop-width) {
+          display: block;
+        }
+      }
+      .period-hyphen {
+        display: none;
+
+        @media (min-width: $desktop-width) {
+          display: block;
+        }
+      }
+      .periods-text {
+        width: 300px;
+
+        @media (min-width: $desktop-width) {
+          width: 475px;
+        }
+      }
+    }
+
+    &:nth-of-type(2) {
+      display: none;
+
+      @media (min-width: $desktop-width) {
+        display: flex;
+
+        .periods-text {
+          margin-right: 95px;
+        }
+      }
+    }
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+    &:nth-of-type(4) .label-clock .periods-text {
+      margin-right: 130px;
+
+      @media (min-width: $desktop-width) {
+        margin-right: 130px;
+      }
+    }
+
+    &:first-of-type {
+      .periods-text {
+        font-weight: normal;
+
+        @media (min-width: $desktop-width) {
+          margin-right: 5px;
+        }
+      }
+      .periods-input {
+        display: none;
+
+        @media (min-width: $desktop-width) {
+          display: block;
+        }
+      }
+      .period-hyphen {
+        display: none;
+
+        @media (min-width: $desktop-width) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .periods-label {
+    display: flex;
+    color: $bg-grey-59;
+    transition: 0.5s ease;
+
+    @media (min-width: $desktop-width) {
+      width: 696px;
+      height: 50px;
+      padding: 14px 22px;
+      font-size: 20px;
+      background-color: $bg-grey-eb;
+    }
+
+    .periods-text {
+      margin: 0;
+    }
+
+    .periods-input {
+      display: block;
+      width: 75px;
+      margin: 0 0 0 5px;
+      padding: 0;
+
+      color: inherit;
+      border: inherit;
+      font-size: inherit;
+      background-color: inherit;
+
+      outline: none;
+      clip-path: inset(0 17px 0 0);
+      font-family: 'Roboto', sans-serif;
+    }
+
+    &:hover,
+    &:focus {
+      color: $color-black;
+    }
+
+    .periods-button {
+      display: none;
+    }
+
+    .period-hyphen {
+      margin: 0 5px 0 0;
+    }
+  }
+
+  .periods-item-input {
+    &::after {
+      display: none;
+    }
+    .periods-label {
+      color: $color-black;
+
+      .periods-input {
+        width: 490px;
+
+        &:last-of-type {
+          display: none;
+        }
+      }
+
+      .period-hyphen {
+        display: none;
+      }
+    }
+
+    .label-clock {
+      .periods-input {
+        width: 80px;
+        margin: 0 62px 0 0;
+        color: $bg-grey-59;
+
+        @media (min-width: $desktop-width) {
+          width: 85px;
+          margin: 0 80px 0 0;
+        }
+      }
+
+      .periods-text {
+        margin-right: 120px;
+
+        @media (min-width: $desktop-width) {
+          margin: 0 120px 0 0;
+        }
+      }
+    }
+
+    .data-button {
+      display: none;
+
+      @media (min-width: $desktop-width) {
+        display: block;
+      }
+    }
+  }
+
+  .label-clock {
+    .periods-button {
+      display: block;
+      width: 16px;
+      height: 16px;
+      padding: 0;
+
+      border: none;
+      transition: 0.5s ease;
+      background-color: inherit;
+      background-repeat: no-repeat;
+      background-image: url("../img/clock.png");
+
+      @media (min-width: $desktop-width) {
+        margin: 4px 0 0 290px;
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .data-button {
+    margin: 0;
+
+    @media (min-width: $desktop-width) {
+      margin: 15px 0 0 0;
+    }
+
+    &:last-of-type {
+      display: none;
+
+      @media (min-width: $desktop-width) {
+        display: block;
+        margin: 18px 0 0 0;
+      }
+    }
+  }
+}
+
+.groups {
+  @media (min-width: $desktop-width) {
+    margin: 0 0 66px 1px;
+  }
+
+  .main-headline {
+    width: 333px;
+    margin: 0 auto 22px auto;
+
+    @media (min-width: $desktop-width) {
+      width: auto;
+      margin: 0 0 41px 0;
+    }
+  }
+
+  .home-list {
+    @media (min-width: $desktop-width) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1055px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .home-list-item {
+      width: 100%;
+      margin-bottom: 28px;
+
+      @media (min-width: $desktop-width) {
+        width: 493px;
+        margin: 0;
+      }
+
+      .community-button {
+        height: 54px;
+        margin: 0;
+        vertical-align: text-top;
+        background-color: $bg-grey-eb;
+        border-bottom: 1px solid $bg-grey-7e;
+
+        @media (min-width: $desktop-width) {
+          height: 53px;
+          border: none;
+          padding: 0 0 25px 0;
+          background-color: inherit;
+        }
+
+        &::after {
+          top: 25px;
+          left: 65px;
+
+          @media (min-width: $desktop-width) {
+            top: 8px;
+            left: 50px;
+          }
+        }
+
+        &:hover {
+          color: $rgba-blue;
+        }
+      }
+    }
+
+    .organizations-list {
+      @media (min-width: $desktop-width) {
+        width: 491px;
+        margin: 0 0 41px 0;
+        border-top: 1px solid $bg-grey-7e;
+      }
+
+      .organizations-list-item {
+        height: 42px;
+        margin: 0;
+        border-bottom: 1px solid $bg-grey-7e;
+
+        @media (min-width: $desktop-width) {
+          border: 0.5px solid $bg-grey-7e;
+        }
+
+        .organization-link {
+          display: block;
+          width: 100%;
+          font-size: 18px;
+          padding: 12px 20px 9px 20px;
+
+          color: $bg-grey-59;
+          background-position: 453px 13px;
+          background-size: 14px 16px;
+          background-repeat: no-repeat;
+          background-image: url("../img/pencil.png");
+
+          &:hover {
+            color: $color-black;
+            background-color: $bg-grey-dd;
+          }
+        }
+
+        .data-button {
+          margin: 0;
+        }
+
+        &:last-of-type .organization-link {
+          background-image: none;
+        }
+      }
+    }
+  }
+}
+
+.bottom-buttons {
+  @media (min-width: $desktop-width) {
+    width: 519px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .main-headline {
+    width: 347px;
+    margin: 0 auto 22px auto;
+    padding-top: 11px;
+
+    @media (min-width: $desktop-width) {
+      width: auto;
+      margin: 0;
+    }
+  }
+
+  .grey-button {
+    width: 347px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-image: none;
+
+    @media (min-width: $desktop-width) {
+      width: 316px;
+    }
+  }
+
+  .bottom-buttons-list {
+    width: 100%;
+    @extend %flex-wrap-space;
+    margin: 30px 0 0 0;
+    padding: 0;
+
+    .bottom-buttons-list-item {
+      margin-bottom: 9px;
+
+      @media (min-width: $desktop-width) {
+        margin: 0;
+      }
+
+      .grey-button {
+        width: 375px;
+        height: 50px;
+        padding: 0 14px;
+
+        font-size: 18px;
+        text-align: left;
+        border-radius: 0;
+        background-color: $bg-grey-eb;
+
+        @media (min-width: $desktop-width) {
+          width: 335px;
+        }
+
+        &:hover {
+          background-color: $bg-grey-c4;
+        }
+      }
+
+      &:last-of-type .grey-button {
+        width: 375px;
+
+        @media (min-width: $desktop-width) {
+          width: 169px;
+        }
+      }
+    }
+  }
+}

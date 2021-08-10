@@ -1,0 +1,742 @@
+[
+    {
+        "block": "1time",
+        "name": "A",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "A1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "A16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "2time",
+        "name": "B",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "B1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "B16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "3time",
+        "name": "C",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "C1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "C16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "4time",
+        "name": "D",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "D1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "D16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "5time",
+        "name": "Dn",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Dn16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "6time",
+        "name": "E",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "E1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "E16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "7time",
+        "name": "Kr",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Kr16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "8time",
+        "name": "Кф",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Кф16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "9time",
+        "name": "O",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "O1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "O16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    },
+    {
+        "block": "10time",
+        "name": "Км",
+        "organizations": [
+            {
+                "href": "/enter/report/a1",
+                "name": "Км1"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км2"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км3"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км4"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км5"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км6"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км7"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км8"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км9"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км10"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км11"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км12"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км13"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км14"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км15"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Км16"
+            },
+            {
+                "href": "/enter/report/a1",
+                "name": "Добавить конференцию"
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "time": "08:00",
+        "href": "/michael-prayer",
+        "action": "Утренние занятия"
+    },
+    {
+        "href": "/michael-prayer",
+        "action": "Обучение чтению"
+    },
+    {
+        "href": "/michael-prayer",
+        "action": "Просветительские беседы по истории"
+    },
+    {
+        "href": "/michael-prayer",
+        "action": "Просветительские беседы по географии"
+    },
+    {
+        "href": "/michael-prayer",
+        "action": "Занятия музыкой"
+    },
+    {
+        "time": "08:50",
+        "href": "/michael-prayer",
+        "action": "Вечерние занятия"
+    }
+]

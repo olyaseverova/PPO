@@ -1,0 +1,419 @@
+.michael-analytics {
+  position: relative;
+  width: 375px;
+  margin: 0 auto 27px auto;
+
+  @media (min-width: $desktop-width) {
+    width: 1358px;
+    margin: 23px auto 233px auto;
+  }
+
+  .buttons-list {
+    position: relative;
+    width: 375px;
+
+    @media (min-width: $desktop-width) {
+      width: 635px;
+    }
+
+    .buttons-list-item {
+      height: 64px;
+
+      @media (min-width: $desktop-width) {
+        height: 56px;
+      }
+
+      &:last-of-type {
+        position: absolute;
+        z-index: 2;
+        top: 64px;
+
+        @media (min-width: $desktop-width) {
+          position: static;
+          z-index: inherit;
+        }
+
+        .grey-button {
+          width: 375px;
+          height: 51px;
+          padding-top: 10px;
+          border-radius: 0;
+
+          @media (min-width: $desktop-width) {
+            width: 288px;
+            height: 100%;
+            padding: 12px 0 0 0;
+          }
+        }
+      }
+
+      .grey-button {
+        position: relative;
+        width: 375px;
+        height: 100%;
+        padding: 18px 0 0 18px;
+
+        font-size: 24px;
+        font-weight: 500;
+        text-align: left;
+        color: $bg-grey-7e;
+        background-color: $color-white;
+
+        @media (min-width: $desktop-width) {
+          width: 288px;
+          text-align: center;
+          padding: 12px 0 0 0;
+          color: $bg-grey-c4;
+          background-color: $bg-grey-eb;
+        }
+      }
+
+      .router-link-active {
+        color: $color-black;
+      }
+    }
+
+    #last {
+      .grey-button {
+        color: $bg-grey-c4;
+
+        &:hover {
+          color: $color-black;
+          background-color: $bg-grey-c4;
+        }
+        &:active {
+          background-color: $bg-grey-dd;
+        }
+      }
+    }
+  }
+}
+
+#ControlAnalytics {
+  margin: 23px 0 0 0;
+}
+
+.control-button {
+  position: relative;
+  width: 375px;
+  padding: 13px 21px;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  background-color: $bg-grey-eb;
+
+  @media (min-width: $desktop-width) {
+    width: 272px;
+    height: 50px;
+  }
+}
+
+.michael-analytics .analytics-buttons-list {
+  position: absolute;
+  width: 375px;
+  flex-wrap: wrap;
+  z-index: 1;
+
+  top: 180px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    width: 272px;
+    top: 129px;
+  }
+
+  .analytics-buttons-list-item {
+    background-color: $bg-grey-eb;
+
+    .grey-button {
+      &:first-of-type {
+        display: none;
+
+        @media (min-width: $desktop-width) {
+          display: block;
+        }
+      }
+
+      &:last-of-type {
+        display: block;
+
+        @media (min-width: $desktop-width) {
+          display: none;
+        }
+      }
+    }
+
+    &:last-of-type .grey-button {
+      @media (min-width: $desktop-width) {
+        width: 272px;
+      }
+    }
+
+    .grey-button {
+      position: relative;
+      width: 375px;
+      height: auto;
+      padding: 13px 20px 14px 21px;
+
+      text-align: left;
+      color: $color-black;
+      background-image: none;
+      border-radius: 0;
+      background-color: $color-white;
+      border-bottom: 1px solid $color-black;
+
+      @media (min-width: $desktop-width) {
+        width: 272px;
+        background-color: $bg-grey-eb;
+      }
+
+      &:hover {
+        background-color: $bg-grey-dd;
+      }
+    }
+
+    &:first-of-type .grey-button {
+      border-top: 1px solid $color-black;
+    }
+
+    .active_button {
+      background-color: $bg-blue;
+
+      &:hover {
+        background-color: $bg-blue;
+      }
+    }
+  }
+}
+
+.control-desktop {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
+}
+
+.control-mob {
+  display: block;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.analytics-community-list {
+  @extend %flex-wrap-space;
+  width: 375px;
+  margin: 0 auto;
+  padding: 0;
+
+  .analytics-community-list-item {
+    display: block;
+    width: 180px;
+    height: 40px;
+    padding: 10px 18px 0 18px;
+    color: $bg-grey-7e;
+
+    &:nth-of-type(odd) {
+      text-align: right;
+    }
+
+    &:first-of-type {
+      width: 100%;
+      height: 54px;
+      padding: 16px 10px;
+
+      font-weight: 700;
+      text-align: left;
+      color: $color-black;
+      background-color: $bg-grey-dd;
+      border: 1px solid $color-black;
+    }
+  }
+}
+
+.analytics-list {
+  margin: 0;
+  padding: 0;
+
+  .analytics-list-item {
+    margin: 51px 0 0 0;
+
+    @media (min-width: $desktop-width) {
+      margin: 36px 0 0 0;
+    }
+  }
+}
+
+.control-table {
+  opacity: 0;
+
+  @media (min-width: $desktop-width) {
+    opacity: 1;
+    margin: 35px 0 0 0;
+    font-size: 18px;
+    background-color: $bg-grey-dd;
+    border-spacing: 0;
+
+    .control-table-line {
+      height: 52px;
+
+      &:first-of-type {
+        height: 54px;
+        font-weight: bold;
+        background-color: $bg-grey-dd;
+        border: 1px solid $color-black;
+
+        .cell-td {
+          border-left: none;
+          border-right: none;
+          background-color: $bg-grey-dd;
+        }
+
+        .cell-th {
+          border-right: none;
+        }
+      }
+
+      &:last-of-type {
+        .cell-td {
+          background-color: $bg-grey-dd;
+        }
+      }
+
+      .cell-th {
+        width: 390px;
+        padding-left: 19px;
+        border: 1px solid $color-black;
+      }
+
+      .cell-td {
+        text-align: center;
+        background-color: $color-white;
+        border: 1px solid $color-black;
+
+        &:first-of-type {
+          width: 95px;
+        }
+        &:nth-of-type(2) {
+          width: 130px;
+        }
+        &:nth-of-type(3) {
+          width: 95px;
+        }
+        &:nth-of-type(4) {
+          width: 165px;
+        }
+        &:nth-of-type(5) {
+          width: 85px;
+        }
+      }
+    }
+  }
+}
+
+.statistics-table-line {
+  height: 54px;
+
+  &:nth-of-type(-n + 2) .statistic-td {
+    background-color: $bg-grey-dd;
+  }
+
+  .statistic-th {
+    width: 390px;
+    text-align: left;
+    padding: 0 0 0 19px;
+    border: 1px solid $color-black;
+  }
+
+  .statistic-td {
+    width: 81px;
+    text-align: center;
+    background-color: $color-white;
+    border: 1px solid $color-black;
+
+    &:nth-of-type(2) {
+      width: 116px;
+    }
+    &:nth-of-type(3) {
+      width: 89px;
+    }
+    &:nth-of-type(4) {
+      width: 121px;
+    }
+    &:nth-of-type(5) {
+      width: 96px;
+    }
+    &:nth-of-type(6) {
+      width: 149px;
+    }
+    &:nth-of-type(7) {
+      width: 158px;
+    }
+    &:nth-of-type(8) {
+      width: 130px;
+    }
+  }
+
+  .border-bot-none {
+    border-bottom: none;
+  }
+
+  .border-top-none {
+    border-top: none;
+  }
+}
+
+.statistics-mob-list {
+  width: 375px;
+  margin: 0 auto;
+  padding: 0;
+
+  .statistics-mob-list-item {
+    @extend %flex-wrap-space;
+
+    .statistics-mob-cell {
+      width: 187.5px;
+      height: 40px;
+      margin: 0;
+      color: $bg-grey-7e;
+      padding: 11px 18px;
+      border-radius: 0;
+
+      &:nth-of-type(n + 5):nth-of-type(-n + 14) {
+        background-color: $bg-grey-eb;
+      }
+    }
+
+    .grey-button {
+      width: 100%;
+      height: 54px;
+      padding: 16px 0;
+
+      text-align: center;
+      font-size: 18px;
+      color: $color-black;
+      background-image: none;
+      background-color: $bg-grey-dd;
+      border: 1px solid $color-black;
+    }
+
+    .statistics-mob-online {
+      width: 100%;
+      font-size: 18px;
+      color: $color-black;
+      background-color: $bg-grey-eb;
+    }
+
+    .statistics-mob-data {
+      font-weight: 700;
+    }
+
+    .statistics-mob-number {
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+.enter-michael-edit {
+  width: 375px;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    margin: 0;
+    padding: 31px 44px 43px 44px;
+  }
+
+  .main-headline {
+    width: 333px;
+    margin: 0 auto 22px auto;
+
+    @media (min-width: $desktop-width) {
+      width: 300px;
+      margin: 0 0 21px 0;
+    }
+  }
+
+  .materials-input {
+    width: 100%;
+    height: 54px;
+    padding: 16px 21px;
+    margin: 0 0 9px 0;
+
+    border: none;
+    font-size: 20px;
+    transition: 0.3s ease;
+    background-color: $bg-grey-eb;
+
+    background-size: 18px 20px;
+    background-repeat: no-repeat;
+    background-position: 334px 15px;
+    background-image: url("../img/pencil.png");
+
+    @media (min-width: $desktop-width) {
+      width: 854px;
+      height: 40px;
+      margin: 0 0 19px 0;
+      padding: 9px 26px;
+
+      background-size: 14px 16px;
+      background-position: 810px 13px;
+    }
+
+    &:hover {
+      background-color: $bg-grey-c4;
+    }
+  }
+
+  .general-information {
+    position: relative;
+    width: 100%;
+    height: 505px;
+    padding: 0;
+    margin: 0 0 22px 0;
+
+    @media (min-width: $desktop-width) {
+      height: 428px;
+      margin: 0 0 18px 0;
+      padding: 0;
+    }
+
+    .general-information-input {
+      display: none;
+    }
+
+    .information-kinds-list {
+      display: none;
+
+      @media (min-width: $desktop-width) {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 655px;
+      }
+    }
+
+    .general-information-textarea {
+      width: 100%;
+      height: 100%;
+      padding: 16px 41px 17px 21px;
+      
+      @media (min-width: $desktop-width) {
+        padding: 65px 60px 29px 26px;
+        font-size: 18px;
+        line-height: 21px;
+      }
+      
+      &::placeholder {
+        opacity: 1;
+        color: $color-black;
+      }
+    }
+  }
+
+  .grey-button {
+    margin: 0 auto;
+    text-align: center;
+    background-image: none;
+
+    @media (min-width: $desktop-width) {
+      float: right;
+      margin: 0;
+    }
+  }
+}

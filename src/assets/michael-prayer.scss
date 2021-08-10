@@ -1,0 +1,47 @@
+.michael-prayer {
+  width: 356px;
+  margin: 26px auto 100px auto;
+
+  @media (min-width: $desktop-width) {
+    width: 1366px;
+    margin: 47px auto;
+  }
+
+  .main-headline {
+    margin-bottom: 17px;
+
+    @media (min-width: $desktop-width) {
+      margin-bottom: 33px;
+    }
+  }
+
+  .static-data {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+      display: block;
+    }
+  }
+}
+
+.prayer-text {
+  width: 352px;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    width: 928px;
+  }
+}
+
+.prayers-list {
+  margin: 0;
+  padding: 0;
+
+  .prayer-text {
+    margin: 0;
+  }
+
+  .indent-prayer {
+    margin-top: 20px;
+  }
+}

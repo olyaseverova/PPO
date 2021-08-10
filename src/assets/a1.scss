@@ -1,0 +1,163 @@
+.group-a1 {
+  width: 375px;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    width: auto;
+    margin: 0;
+    padding: 49px 409px 400px 48px;
+  }
+
+  .grey-button {
+    text-align: center;
+    background-image: none;
+  }
+}
+
+.timetables-list {
+  @extend %flex-wrap;
+  margin: 0 0 30px 0;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    width: 706px;
+  }
+
+  .timetables-list-item {
+    width: 100%;
+    font-size: 18px;
+
+    @media (min-width: $desktop-width) {
+      display: flex;
+      flex-wrap: nowrap;
+      height: 42px;
+    }
+
+    .timetable-cell {
+      padding-left: 21px;
+      text-align: left;
+
+      @media (min-width: $desktop-width) {
+        padding: 0;
+        border: 1px solid $bg-grey-7e;
+      }
+    }
+
+    .timetable-group {
+      color: $bg-grey-59;
+      margin: 0 0 5px 0;
+
+      @media (min-width: $desktop-width) {
+        width: 212px;
+        margin: 0;
+        padding: 10px 18px;
+        color: $color-black;
+        font-weight: normal;
+      }
+    }
+
+    .timetable-button {
+      width: 100%;
+      height: 46px;
+      margin: 0 0 5px 0;
+
+      border: none;
+      font-size: 18px;
+      font-weight: 500;
+      transition: 0.5s ease;
+
+      @media (min-width: $desktop-width) {
+        width: 491px;
+        height: 42px;
+        padding: 10px 28px;
+
+        font-weight: 400;
+        border: 1px solid $bg-grey-7e;
+        background-color: inherit;
+        background-position: 450px 13px;
+        background-size: 14px 16px;
+        background-repeat: no-repeat;
+        background-image: url("../img/pencil.png");
+      }
+    }
+
+    &:nth-child(n+3):nth-child(-n+4) .timetable-button:hover {
+      background-color: $bg-grey-c4;
+    }
+    &:nth-child(n+3):nth-child(-n+4) .timetable-button:active {
+      background-color: $bg-grey-eb;
+    }
+  }
+}
+
+.people {
+  margin: 0 0 29px 0;
+
+  .people-list {
+    margin: 0;
+    padding: 0;
+
+    .people-list-item {
+      justify-content: space-between;
+      height: 56px;
+      padding: 17px 25px 18px 14px;
+      border-top: 1px solid $bg-grey-7e;
+
+      .man-input {
+        width: 250px;
+        padding: 0;
+        border: none;
+        font-size: 18px;
+
+        @media (min-width: $desktop-width) {
+          width: 550px;
+          font-size: 20px;
+        }
+      }
+
+      .data-button {
+        &:last-of-type {
+          margin: 3px 0 0 0;
+
+          @media (min-width: $desktop-width) {
+            margin: 5px 0 0 0;
+          }
+        }
+
+        @media (min-width: $desktop-width) {
+          margin: 2px 0 0 0;
+        }
+      }
+    }
+  }
+
+  .grey-button {
+    width: 100%;
+    padding: 15px 125px;
+
+    color: $bg-grey-59;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 0;
+    background-color: inherit;
+    border-top: 1px solid $bg-grey-7e;
+    border-bottom: 1px solid $bg-grey-7e;
+
+    background-position: 235px 22px;
+    background-image: url("../img/plus-worships.png");
+
+    &:hover {
+      background-color: $bg-grey-dd;
+    }
+    &:active {
+      background-color: $bg-grey-eb;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 100%;
+      padding: 15px 290px;
+      font-size: 20px;
+      background-position: 405px 23px;
+    }
+  }
+}

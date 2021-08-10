@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 375px;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+  background-color: $color-white;
+  font-family: 'Roboto', sans-serif;
+
+  @media (min-width: $desktop-width) {
+    font-size: 24px;
+  }
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  color: $color-black;
+  text-decoration: none;
+}
+
+.link-hvr-act {
+  transition: 0.5s ease;
+
+  &:hover {
+    color: $bg-blue;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.p {
+  margin: 0;
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.italik {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.router-link-active {
+  background-color: $bg-blue;
+}
+
+.main-headline {
+  margin: 0 0 18px 0;
+  font-size: 24px;
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 48px 0;
+  }
+}
+
+.arrow::after {
+  position: absolute;
+  content: "";
+
+  width: 14px;
+  height: 8px;
+
+  top: 50%;
+  left: 90%;
+
+  transition: 0.5s ease;
+  transform: rotate(180deg);
+  background-image: url("../img/arrow-down.png");
+
+  @media (min-width: $desktop-width) {
+    top: 50%;
+    left: 90%;
+  }
+}
+
+.arrow_down::after {
+  position: absolute;
+  content: "";
+
+  width: 14px;
+  height: 8px;
+
+  top: 50%;
+  left: 90%;
+
+  transition: 0.5s ease;
+  background-image: url("../img/arrow-down.png");
+
+  @media (min-width: $desktop-width) {
+    top: 50%;
+    left: 90%;
+  }
+}
+

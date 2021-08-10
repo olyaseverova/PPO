@@ -1,0 +1,216 @@
+{
+    "noveltys": [
+        {
+            "topic": "Заголовок к новости",
+            "date": "5.08.2020"
+        },
+        {
+            "topic": "Заголовок к новости",
+            "date": "5.08.2020"
+        },
+        {
+            "topic": "Заголовок к новости",
+            "date": "5.08.2020"
+        }
+    ],
+    "social": [
+        "Социальная акция",
+        "Благотворительное мероприятие",
+        "Социальная акция",
+        "Благотворительное мероприятие"
+    ],
+    "petitions": [
+        "Создать прошение",
+        "Создать прошение"
+    ],
+    "birthdays": [
+        "Ближайший день рождения",
+        "Ближайший день рождения",
+        "Ближайший день рождения"
+    ],
+    "topics": [
+        "2020",
+        "Август",
+        "",
+        ""
+    ],
+    "days": [
+        "пн",
+        "вт",
+        "ср",
+        "чт",
+        "пт",
+        "сб",
+        "вс"
+    ],
+    "dates": [
+        {
+            "id": "disabled_date",
+            "number": 27
+        },
+        {
+            "id": "disabled_date",
+            "number": 28
+        },
+        {
+            "id": "disabled_date",
+            "number": 29
+        },
+        {
+            "id": "disabled_date",
+            "number": 30
+        },
+        {
+            "id": "disabled_date",
+            "number": 31
+        },
+        {
+            "id": "active_date",
+            "number": 1
+        },
+        {
+            "id": "active_date",
+            "number": 2
+        },
+        {
+            "id": "active_date",
+            "number": 3
+        },
+        {
+            "id": "active_date",
+            "number": 4
+        },
+        {
+            "id": "selected_date",
+            "number": 5
+        },
+        {
+            "id": "active_date",
+            "number": 6
+        },
+        {
+            "id": "active_date",
+            "number": 7
+        },
+        {
+            "id": "active_date",
+            "number": 8
+        },
+        {
+            "id": "active_date",
+            "number": 9
+        },
+        {
+            "id": "active_date",
+            "number": 10
+        },
+        {
+            "id": "active_date",
+            "number": 11
+        },
+        {
+            "id": "active_date",
+            "number": 12
+        },
+        {
+            "id": "active_date",
+            "number": 13
+        },
+        {
+            "id": "active_date",
+            "number": 14
+        },
+        {
+            "id": "active_date",
+            "number": 15
+        },
+        {
+            "id": "active_date",
+            "number": 16
+        },
+        {
+            "id": "active_date",
+            "number": 17
+        },
+        {
+            "id": "active_date",
+            "number": 18
+        },
+        {
+            "id": "active_date",
+            "number": 19
+        },
+        {
+            "id": "active_date",
+            "number": 20
+        },
+        {
+            "id": "active_date",
+            "number": 21
+        },
+        {
+            "id": "active_date",
+            "number": 22
+        },
+        {
+            "id": "active_date",
+            "number": 23
+        },
+        {
+            "id": "active_date",
+            "number": 24
+        },
+        {
+            "id": "active_date",
+            "number": 25
+        },
+        {
+            "id": "active_date",
+            "number": 26
+        },
+        {
+            "id": "active_date",
+            "number": 27
+        },
+        {
+            "id": "active_date",
+            "number": 28
+        },
+        {
+            "id": "active_date",
+            "number": 29
+        },
+        {
+            "id": "active_date",
+            "number": 30
+        },
+        {
+            "id": "active_date",
+            "number": 31
+        },
+        {
+            "id": "disabled_date",
+            "number": 1
+        },
+        {
+            "id": "disabled_date",
+            "number": 2
+        },
+        {
+            "id": "disabled_date",
+            "number": 3
+        },
+        {
+            "id": "disabled_date",
+            "number": 4
+        },
+        {
+            "id": "disabled_date",
+            "number": 5
+        },
+        {
+            "id": "disabled_date",
+            "number": 6
+        }
+    ]
+}
